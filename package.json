@@ -1,0 +1,27 @@
+{
+  "name": "git-report-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "git-report-card": "index.js"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [],
+  "author": "Ben Parnell <benjaminparnell.94@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "date-fns": "^1.29.0",
+    "gh-got": "^8.0.1",
+    "meow": "^5.0.0",
+    "pretty-ms": "^4.0.0",
+    "simple-git": "^1.100.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
